@@ -1,5 +1,6 @@
                                                   Email Spam or Ham Classifier
 OVERVIEW:
+
 This repository contains a Python implementation of a machine learning model to classify emails as spam or ham (not spam). The model is built using various text processing and machine learning techniques to ensure high accuracy in distinguishing spam emails from legitimate ones.
 
 FEATURES:
@@ -10,14 +11,19 @@ Feature Engineering: Uses TF-IDF Vectorization to convert text data into numeric
    
 Feature Selection: Applies the SelectKBest algorithm with the chi-squared statistic to select the most relevant features.
   
- MODEL TRAINING: Trains three different models:
+ MODEL TRAINING:
+
+ Trains three different models:
                    Multinomial Naive Bayes,
                    Gaussian Naive Bayes and
                    Decision Tree (J48)
 
-EVALUATION: Evaluates the performance of each model using accuracy, error rate, and classification metrics.
+EVALUATION: 
+
+Evaluates the performance of each model using accuracy, error rate, and classification metrics.
 
 DEPENDENCIES/LIABRARIES:
+
 numpy,
 pandas,
 scikit-learn,
