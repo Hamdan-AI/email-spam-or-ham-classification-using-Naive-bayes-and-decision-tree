@@ -10,8 +10,8 @@ Feature Engineering: Uses TF-IDF Vectorization to convert text data into numeric
 Feature Selection: Applies the SelectKBest algorithm with the chi-squared statistic to select the most relevant features.
   
  Model Training: Trains three different models:
-                   Multinomial Naive Bayes
-                   Gaussian Naive Bayes
+                   Multinomial Naive Bayes,
+                   Gaussian Naive Bayes and
                    Decision Tree (J48)
 
 Evaluation: Evaluates the performance of each model using accuracy, error rate, and classification metrics.
